@@ -3,6 +3,10 @@
 
 module.exports = function(environment) {
   let ENV = {
+    DS: {
+    host: 'https://ember-adonis-simple-form.herokuapp.com',
+    namespace: 'api',
+  },
     modulePrefix: 'ember-adonis-simple-form',
     environment,
     rootURL: '/',
